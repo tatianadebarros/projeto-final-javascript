@@ -1,0 +1,100 @@
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    line-height: 30px;
+    min-height: 100vh;
+}
+
+h1 {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: border;
+}
+
+h2 {
+margin: 0;
+margin-bottom: 15px;
+text-align: center;
+}
+
+main {
+margin: 40px;
+text-align: center;
+}
+
+p {
+text-align: "left";
+}
+
+section {
+border: thick double #538497;
+margin-bottom: 30px;
+width: 50%;
+background-color: #afb5b9;
+}
+
+button {
+height: 36px;
+}
+
+#projeto1, #projeto2 {
+padding: 10px 20px;
+line-height: auto
+}
+
+#formulario {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+#notas {
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+
+#btnSituacao{
+width: 300px;
+}
+
+#content {
+display: flex;
+gap: 20px;
+margin-top: 50px;
+}
+
+#contentCalcMedias {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.nota {
+display: flex;
+flex-direction: column;
+}
+
+.inputCalc {
+width: 110px;
+height: 30px;
+}
+
+.buttonCalc {
+width: 110px;
+}
+
+.resultado {
+margin-top: 0;
+}
+
+.inputNota{
+width: 80px;
+height: 36px;
+}
